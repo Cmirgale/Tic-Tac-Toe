@@ -1,0 +1,81 @@
+.header{
+    border-bottom: 3px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameName{
+    display: inline;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-right: 9%; 
+    font-size: 40px;
+    text-align: center;
+}
+
+
+ .select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ #msg{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    text-align: center;
+    width: 50%;
+    padding-bottom: 5%;
+    padding-top: 5%;   
+ }
+
+ .box{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+    width: 454px;
+    height: auto;
+    border: 2px solid black;
+    margin: 2px auto;
+    }
+
+    .index{
+        display: grid;
+        width:  150px;
+        height: 150px;
+        border: 1px solid cyan;
+        font-size: 50px;
+
+        align-content: center;
+        justify-content: center;
+        cursor: pointer;
+        user-select: none;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;       
+}
+
+
+button{
+background-color: #66FF33;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}  
+
+#restart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
